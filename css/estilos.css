@@ -47,18 +47,41 @@ body,html{
     border-width: 1px;
     display: flex;
     justify-content: space-between;  
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
+    position: relative; 
     
 }
 .container-logo{
-  width: 33%;
-  display: flex;
-  justify-self: start;
+  position: relative;
+  left: 1%;
 }
 .logo{
-  position: relative; /*para que la imagen se sejete ahi*/
-  overflow: hidden; /*desbordamiento de la imagen*/
+  margin: 1%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.mi{
+  position: absolute;
+  left: 50%;
+  font-size: 25px;
+}
+.menu{
+  position: relative;
+  display: none;
+}
+.img-principal{
+  width: 100%;
 }
 ol,ul{
     list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+  background-color: white;
+    padding: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:gray;
 }
