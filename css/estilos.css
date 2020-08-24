@@ -42,18 +42,16 @@ body,html{
   margin: 0px;
 }
 .header{
-    border-style: solid;
+    /* border-style: solid;
     border-color: gray;
-    border-width: 1px;
+    border-width: 1px; */
     display: flex;
     justify-content: center;  
     flex-wrap: wrap; 
     
     
 }
-.imagen_cabecera{
-  
-}
+
 .container-logo{
   width: 100%;
   display: flex;
@@ -84,6 +82,9 @@ ol,ul{
     padding: 0;
     margin: 0;  
 }
+a:hover{
+  color: blue;
+}
 a{
   text-decoration: none;/*quta el subrrayado*/
   color: black;
@@ -93,10 +94,29 @@ a{
 }
 li{
   background-color: white;
- 
-    padding: 8px;
+     padding: 8px;
     border-style: solid;
     border-width: 1px;
     border-color:gray;
   /*letter-spacing: 10px;/*espaci entre letras*/  
+}
+h2{
+  text-align: center;
+}
+/******** poroductos***********/
+.productos{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap;  */
+}
+.producto{
+  /* border-style: solid;
+    border-color: gray;
+    border-width: 1px; */
+    width: 45%;
+    
+}
+.imagen-producto{
+  display: flex;
+  width: 100%;
 }
