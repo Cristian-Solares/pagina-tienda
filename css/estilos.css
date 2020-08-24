@@ -46,24 +46,29 @@ body,html{
     border-color: gray;
     border-width: 1px;
     display: flex;
-    justify-content: space-between;  
+    justify-content: center;  
     flex-wrap: wrap; 
-    position: relative; 
+    
     
 }
+.imagen_cabecera{
+  
+}
 .container-logo{
-  position: relative;
-  left: 1%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
 }
 .logo{
-  margin: 1%;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin: 5%;
+  margin-bottom: 0px;
 }
 .mi{
-  position: absolute;
-  left: 50%;
+  width: 100%;
   font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 .menu{
   position: relative;
@@ -78,10 +83,15 @@ ol,ul{
     margin: 0;
     
 }
+.boton{
+  margin-right: 10%;
+}
 li{
   background-color: white;
+  text-decoration: none;
     padding: 8px;
     border-style: solid;
     border-width: 1px;
     border-color:gray;
+  /*letter-spacing: 10px;/*espaci entre letras*/  
 }
