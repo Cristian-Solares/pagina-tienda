@@ -25,15 +25,39 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icon-menu:before { /*utulizar esta clase en un elemento html*/
+  .icon-cart:before {
+    content: "\e93a";
+  }
+  .icon-user:before {
+    content: "\e971";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
+  .icon-menu:before {/*utulizar esta clase en un elemento html*/
     content: "\e9bd";
   }
 /**************************************************************************/
-
+body,html{
+  margin: 0px;
+}
 .header{
-    background-color: blue;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
     display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;  
     
+}
+.container-logo{
+  width: 33%;
+  display: flex;
+  justify-self: start;
+}
+.logo{
+  position: relative; /*para que la imagen se sejete ahi*/
+  overflow: hidden; /*desbordamiento de la imagen*/
 }
 ol,ul{
     list-style: none;
