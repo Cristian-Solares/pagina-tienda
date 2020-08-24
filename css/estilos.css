@@ -72,23 +72,28 @@ body,html{
 }
 .menu{
   position: relative;
-  display: none;
+  display: none ;
 }
 .img-principal{
   width: 100%;
+  position: relative; /*para que la imagen se sejete ahi*/
+  overflow: hidden; /*desbordamiento de la imagen*/
 }
 ol,ul{
     list-style: none;
     padding: 0;
-    margin: 0;
-    
+    margin: 0;  
+}
+a{
+  text-decoration: none;/*quta el subrrayado*/
+  color: black;
 }
 .boton{
   margin-right: 10%;
 }
 li{
   background-color: white;
-  text-decoration: none;
+ 
     padding: 8px;
     border-style: solid;
     border-width: 1px;
