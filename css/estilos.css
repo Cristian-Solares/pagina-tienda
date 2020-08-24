@@ -71,6 +71,11 @@ body,html{
 .menu{
   position: relative;
   display: none ;
+  transition: 5s;
+}
+.menu.isactive{
+  display: block;
+  
 }
 .img-principal{
   width: 100%;
@@ -92,12 +97,14 @@ a{
 .boton{
   margin-right: 10%;
 }
+
 li{
   background-color: white;
      padding: 8px;
     border-style: solid;
     border-width: 1px;
-    border-color:gray;
+    border-color: #F5F5F5;
+    border-radius: 3px;
   /*letter-spacing: 10px;/*espaci entre letras*/  
 }
 h2{
@@ -107,7 +114,10 @@ h2{
 .productos{
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap;  */
+  flex-wrap: nowrap;
+}
+.producto-image_conteiner{
+  margin: 1%;
 }
 .producto{
   /* border-style: solid;
@@ -118,5 +128,5 @@ h2{
 }
 .imagen-producto{
   display: flex;
-  width: 100%;
+  width: 100%; 
 }
