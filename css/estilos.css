@@ -55,6 +55,7 @@
 body,html{
   margin: 0px;
 }
+
 .header{
     /* border-style: solid;
     border-color: gray;
@@ -183,4 +184,23 @@ h2{
 p img{
   position: relative; /*para que la imagen se sejete ahi*/
   overflow: hidden; 
+}
+
+@media screen and (min-width: 767px){
+  .header{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    padding: 1%;
+    margin: 1px;
+  }
+  .mi{
+    justify-content: space-between;
+    width: 15%;
+    margin: 2%;
+  }
+  .container-logo{
+    justify-content: space-between;
+    width: inherit;
+  }
 }
