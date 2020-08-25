@@ -34,9 +34,23 @@
   .icon-search:before {
     content: "\e986";
   }
-  .icon-menu:before {/*utulizar esta clase en un elemento html*/
+  .icon-menu:before {
     content: "\e9bd";
   }
+  .icon-facebook2:before {
+    content: "\ea91";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  
+  .icon-youtube:before {/*utulizar esta clase en un elemento html*/
+    content: "\ea9d";
+  }
+ 
 /**************************************************************************/
 body,html{
   margin: 0px;
@@ -129,4 +143,28 @@ h2{
 .imagen-producto{
   display: flex;
   width: 100%; 
+}
+.contacto{
+  padding: 2%;
+}
+.container-contacto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;/*alinea los items al centro*/
+}
+.social{
+  font-size: 40px;
+  margin-right: 6px ;
+}
+#face{
+  color: #2D88FF;
+}
+#inta{
+  color: #DF458D;
+}
+#you{
+  color:#FF0000;
+}
+#tw{
+  color: #00A2F3;
 }

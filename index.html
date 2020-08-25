@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Icono pestaña.png" />
     <link rel="stylesheet" href="css/estilos.css">
     <title>Natilop Shop</title>
 </head>
@@ -77,22 +78,24 @@
         </div>
     </section>
     <section class="contacto">
-        <div class="container">
+        <div class="container-contacto">
             <form action="/suscripcion/" class="form-email">
                 <h3>Suscribete</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
               </form>
-              <div class="social">
-                <a href="" class="social-link twitter"></a>
-                <a href="" class="social-link facebook"></a>
-                <a href="" class="social-link github"></a>
-                <a href="" class="social-link instagram"></a>
-              </div>
+              <div class="social-contener">
+                <a href="" class="icon-facebook2 social" id="face"></a>
+                <a href="" class="icon-instagram social" id="inta"></a>
+                <a href="" class="icon-youtube social" id="you"></a>
+                <a href="" class="icon-twitter social" id="tw"></a>
+    
+            </div>
         </div>
         
     </section>
     <footer class="footer">
+        
         <div class="container">
           <div>
             <p>todos los derechos reservados <img src="" width="80" alt="alguna Imagen"></p>
@@ -111,7 +114,6 @@
       function hideShow(){/*crea una función condicinal la cual llama arriba*/
         if(menu.classList.contains('isactive')){/*si contiene isactive*/
           menu.classList.remove('isactive');/*quita is active*/
-
         }else{
           menu.classList.add('isactive');/*pone is active*/
           }
