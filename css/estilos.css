@@ -187,6 +187,9 @@ p img{
 }
 
 @media screen and (min-width: 767px){
+  body{
+    margin-right:6px ;
+  }
   .header{
     display: flex;
     justify-content: space-between;
@@ -202,5 +205,11 @@ p img{
   .container-logo{
     justify-content: space-between;
     width: inherit;
+  }
+}
+@media screen and (min-width: 374px){
+  .boton{
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
