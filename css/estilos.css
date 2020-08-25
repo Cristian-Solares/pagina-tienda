@@ -146,8 +146,13 @@ h2{
 }
 .contacto{
   padding: 2%;
+  border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 5px;
 }
 .container-contacto{
+
   display: flex;
   justify-content: space-between;
   align-items: center;/*alinea los items al centro*/
@@ -155,6 +160,7 @@ h2{
 .social{
   font-size: 40px;
   margin-right: 6px ;
+  
 }
 #face{
   color: #2D88FF;
@@ -167,4 +173,14 @@ h2{
 }
 #tw{
   color: #00A2F3;
+}
+.container-fo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+p img{
+  position: relative; /*para que la imagen se sejete ahi*/
+  overflow: hidden; 
 }
