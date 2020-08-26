@@ -1,0 +1,28 @@
+
+@media screen and (min-width: 767px){
+    body{
+      margin-right:6px ;
+    }
+    .header{
+      display: flex;
+      justify-content: space-between;
+      width: inherit;
+      padding: 1%;
+      margin: 1px;
+    }
+    .mi{
+      justify-content: space-between;
+      width: 15%;
+      margin: 2%;
+    }
+    .container-logo{
+      justify-content: space-between;
+      width: inherit;
+    }
+  }
+  @media screen and (min-width: 374px){
+    .boton{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }

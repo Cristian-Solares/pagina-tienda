@@ -1,0 +1,40 @@
+.fadeIn{
+    /* se pone dos ves por diferentes animaciones segun la vercion del explorador*/
+    -webkit-animation-duration:4s ;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both; /*se cumple los fs tanto de ida como de regreso*/
+    animation-fill-mode: both; /*se cumple los fs tanto de ida como de regreso*/
+    -webkit-animation-name: fadeIn;/*es necesario que tenga nombre para enlazar*/
+    animation-name: fadeIn;/*es necesario que tenga nombre para enlazar*/
+}
+@keyframes fadeIn{/*aqui se define que animacion tiene la clase*/
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fadeup{
+    /* se pone dos ves por diferentes animaciones segun la vercion del explorador*/
+    -webkit-animation-duration:4s ;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both; /*se cumple los fs tanto de ida como de regreso*/
+    animation-fill-mode: both; /*se cumple los fs tanto de ida como de regreso*/
+    -webkit-animation-name: fadeup;/*es necesario que tenga nombre para enlazar*/
+    animation-name: fadeup;/*es necesario que tenga nombre para enlazar*/
+}
+@keyframes fadeup{/*aqui se define que animacion tiene la clase*/
+    from{
+        opacity: 0;
+        transform: translate3d(0,-50%,0);
+        -webkit-transform: translate3d(0,-50%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        -webkit-transform: translate3d(0,0,0);
+    }
+}
+
+
