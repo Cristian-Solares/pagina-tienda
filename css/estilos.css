@@ -135,7 +135,7 @@ h2{
 .productos{
   display: flex;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 .producto-image_conteiner{
   margin: 1%;

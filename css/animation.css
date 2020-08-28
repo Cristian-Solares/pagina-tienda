@@ -27,8 +27,8 @@
 @keyframes fadeup{/*aqui se define que animacion tiene la clase*/
     from{
         opacity: 0;
-        transform: translate3d(0,-50%,0);
-        -webkit-transform: translate3d(0,-50%,0);
+        transform: translate3d(0,50%,0);
+        -webkit-transform: translate3d(0,50%,0);
     }
     to{
         opacity: 1;
