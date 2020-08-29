@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../css/pangrandes.css">
     <link rel="stylesheet" href="../css/animation.css">
     <link rel="stylesheet" href="../css/estilos_producs.css">
+    <!-- &currency=MXN moeda en la que conbra &vault=true coeneccion segura con paypal -->
+    <script src="https://www.paypal.com/sdk/js?client-id=ARpsE1hnhPsFvWEc3nwDrCz0jwv-6RWhiEC2gxmhl7xtzT6iSDieiGH6B2_uduH0nFpoUosva4TwjKlx&currency=MXN&vault=true"> 
+    </script>  
     <title>Natilop Shop</title>
 </head>
 <body>
@@ -59,6 +62,8 @@
 
                 </form>
             </div>
+            <div id="paypal-button-container"></div>
+
         </div>
     
     </section>
@@ -94,6 +99,25 @@
       </footer>
     <script src="../js/principal.js">
         
-    </script>   
+    </script> 
+    <script>
+        paypal.Buttons({
+    createOrder: function(data, actions) {
+      // This function sets up the details of the transaction, including the amount and line item details.
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: '5'
+          }
+        }]
+      });
+    },
+    onApprove: function() {
+      alert('tansaccion creada');
+    }
+  }).render('#paypal-button-container');
+        // This function displays Smart Payment Buttons on your web page.
+      </script>
+
 </body>
 </html>
