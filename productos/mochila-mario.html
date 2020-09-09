@@ -44,17 +44,24 @@
                 <img src="../images/mochila mario.jpg" alt="imagen_del_producto" class="imagen-producto">
             </div>
             <div class="modulo-pago">
-                <form action="https://www.google.com">
-                    <label for="name">Nombre: </label><br>
-                    <input type="text" autocomplete="name" name="name" id="name"><br>                    
-                    <label for="email">Correo electronico: </label><br>
-                    <input type="email" autocomplete="email" name="email" id="email"> <br>   
-                    <label for="tel">Telefono: </label><br>
-                    <input type="tel" autocomplete="tel" name="tel" id="tel"> <br>                   
-                    <label for="street-address">Enviar a: </label><br>
-                    <input type="text" autocomplete="street-address" name="address" id="street-address"> <br> 
-            
-                    <input type="submit"class="main_btn" name="submit" value="Confirmar pago">
+                <!-- <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KU4V6NUPMZULU" method="POST">
+                  <input type="hidden" name="first_name" value="John"><br>
+                  <label for = "email">Email</label><br>
+                  <input type="hidden" name="email" value="jdoe@zyzzyu.com"><br>
+                  <label for="phone">Telefono</label><br>
+                  <input type="hidden" name="night_phone_a" value="610"><br>
+                  <input type="submit" value="Confirmar Pago" name="submit"class="main-btn">
+             -->
+             <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KU4V6NUPMZULU" method="post">       
+              <INPUT TYPE="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="first_name" value="John">
+              <input type="hidden" name="last_name" value="Doe">
+              <input type="hidden" name="address1" value="9 Elm Street">
+              <input type="hidden" name="city" value="Berwyn">                         
+              <input type="hidden" name="night_phone_a" value="610">
+              <input type="hidden" name="email" value="sb-kxhcy3067167@personal.example.com">
+              <input type="submit" value="Confirmar Pago" name="submit"class="main-btn">
+            </form>
 
 
                 </form>
