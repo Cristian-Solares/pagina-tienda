@@ -1,167 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="images/Icono pestaña.png" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="css/pangrandes.css" />
-    <link rel="stylesheet" href="css/animation.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&display=swap"
+      rel="stylesheet"
+    />
 
-    <title>Natilop Shop</title>
+    <title>NatalilopShop</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container-logo">
+      <div class="item1">
+        <div class="ham_contenedor">
+          <figure class="menu_amburgesa">
+            <img
+              src="iconos/Icon More.png"
+              alt="imagen_cabecera"
+              class="hamburger"
+            />
+          </figure>
+        </div>
+        <h1 class="nata">Natilop</h1>
         <figure class="logo">
-          <img src="images/Cabecera.png" alt="imagen_cabecera" class="fadeIn" />
+          <img
+            src="iconos/Grupo -4.png"
+            alt="imagen_cabecera"
+            class="hamburger"
+          />
         </figure>
-      </div>
-      <div class="mi">
-        <i class="icon-search boton fadeup" id="search-boton"></i>
-        <i class="icon-user boton fadeup" id="user-boton"></i>
-        <i class="icon-cart boton fadeup" id="cart-boton"></i>
-        <i class="icon-menu boton fadeup" id="burger-menu"></i>
+        <h1 class="shop">Shop</h1>
       </div>
     </header>
-    <nav class="menu">
-      <ol>
-        <li>
-          <a href="">menu op 1</a>
-        </li>
-        <li>
-          <a href="">menu op 2</a>
-        </li>
-        <li>
-          <a href="">menu op 3</a>
-        </li>
-      </ol>
-    </nav>
-    <section class="hero">
-      <div class="container-logo">
-        <!-- <h1>texto principal</h1> -->
-        <img
-          src="images/Principal.jpg"
-          alt="Imagen principal"
-          class="img-principal"
-        />
-      </div>
-    </section>
+    <section class="item2"><h4>¡Encuentra lo que buscas!</h4></section>
+
+    <section class="hero">hero</section>
+    <section class="productos">productos</section>
+    <section class="carrucel">deslis</section>
     <section class="cuerpo">
-      <div class="container">
-        <h2>Colección destacada</h2>
-        <div class="productos">
-          <article class="producto">
-            <figure class="producto-image_conteiner">
-              <img
-                src="images/mochila 10.jpg"
-                alt="imagen_del_producto"
-                class="imagen-producto"
-              />
-            </figure>
-            <div class="producto-detail">
-              <h3 class="producto-title">Mochila Sport 10</h3>
-              <h3 class="producto-precio">$5 peso</h3>
-              <button href="#" class="booton-producto">Take my money</button>
-            </div>
-          </article>
-          <article class="producto">
-            <figure class="producto-image_conteiner">
-              <img
-                src="images/mochila mario.jpg"
-                alt="imagen_del_producto"
-                class="imagen-producto"
-              />
-            </figure>
-            <div class="producto-detail">
-              <h3 class="producto-title">Mochila Super Mario</h3>
-              <h3 class="producto-precio">$5 peso</h3>
-              <!-- es necesario meterlo dentro de un a -->
-              <a href="productos/mochila-mario.html">
-                <button class="booton-producto">Take my money</button>
-              </a>
-            </div>
-          </article>
-          <article class="producto">
-            <figure class="producto-image_conteiner">
-              <img
-                src="images/lonchera peach.jpg"
-                alt="imagen_del_producto"
-                class="imagen-producto"
-              />
-            </figure>
-            <div class="producto-detail">
-              <h3 class="producto-title">Lonchera Peach</h3>
-              <h3 class="producto-precio">$5 peso</h3>
-              <button href="#" class="booton-producto">Take my money</button>
-            </div>
-          </article>
-          <article class="producto">
-            <figure class="producto-image_conteiner">
-              <img
-                src="images/mochila mario.jpg"
-                alt="imagen_del_producto"
-                class="imagen-producto"
-              />
-            </figure>
-            <div class="producto-detail">
-              <h3 class="producto-title">Mochila Super Mario</h3>
-              <h3 class="producto-precio">$5 peso</h3>
-              <button href="#" class="booton-producto">Take my money</button>
-            </div>
-          </article>
-        </div>
+      <div class="contenedor">
+        <figure class="logo">
+          <img
+            src="images/mochila 10.jpg"
+            alt="imagen_cabecera"
+            class="hamburger"
+          />
+        </figure>
       </div>
+      <div class="contenedor"></div>
+      <div class="contenedor"></div>
+      <div class="contenedor"></div>
     </section>
-    <section class="contacto">
-      <div class="container-contacto">
-        <form action="/suscripcion/" class="form-email">
-          <h3>Suscribete</h3>
-          <input type="text" placeholder="Déjame tu email" id="email" />
-          <button>Enviar</button>
-        </form>
-        <div class="social-contener">
-          <a
-            href="https://www.facebook.com/Natilop-Shop-106674111137888/"
-            class="icon-facebook2 social"
-            id="face"
-            target="_blank"
-          ></a>
-          <a
-            href="https://www.instagram.com/natilopshop/"
-            class="icon-instagram social"
-            id="inta"
-            target="_blank"
-          ></a>
-          <a
-            href="https://www.youtube.com/channel/UCH5XXYrNNAEerJz2ggMl69g?view"
-            class="icon-youtube social"
-            id="you"
-            target="_blank"
-          ></a>
-          <a
-            href="https://twitter.com/natilopshop"
-            class="icon-twitter social"
-            id="tw"
-            target="_blank"
-          ></a>
-        </div>
+
+    <footer class="fouter">
+      <div class="icono carro">
+        <figure class="logof">
+          <img
+            src="iconos/Icon Cart.png"
+            alt="imagen_cabecera"
+            class="hamburger"
+          />
+        </figure>
+        <h6>Carrito</h6>
       </div>
-    </section>
-    <footer class="footer">
-      <div class="container-fo">
-        <div>
-          <p>
-            todos los derechos reservados
-            <img src="images/Cabecera.png" width="80" alt="alguna Imagen" />
-          </p>
-        </div>
-        <div>
-          <p>Designed with ❤❤ by <a href="">@cristiansolares</a></p>
-        </div>
+
+      <div class="icono iconl">
+        <figure class="logof inilogo">
+          <img
+            src="iconos/Grupo -3.png"
+            alt="imagen_cabecera"
+            class="hamburger"
+          />
+        </figure>
+        <h6 id="inicio">Inicio</h6>
+      </div>
+
+      <div class="icono buscaimg">
+        <figure class="logof">
+          <img
+            src="iconos/Icon Search.png"
+            alt="imagen_cabecera"
+            class="hamburger"
+          />
+        </figure>
+        <h6>Buscar</h6>
       </div>
     </footer>
-    <script src="js/principal.js"></script>
   </body>
 </html>
